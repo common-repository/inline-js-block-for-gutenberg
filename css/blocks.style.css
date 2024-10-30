@@ -1,0 +1,24 @@
+.inlie_js_block{
+	min-height: 150px;
+}
+.gutenberg .inlie_js_block .CodeMirror {
+	
+		border-radius: 4px;
+		border: 1px solid light-gray-500;
+		 font-family: Menlo,Consolas,monaco,monospace;;
+		font-size: 14px; 
+
+		height: auto;
+
+}
+	.gutenberg .inlie_js_block .CodeMirror-gutters {
+		background: white;
+		border-right: none;
+	}
+
+	.gutenberg .inlie_js_block .CodeMirror-lines{
+		padding: 8px 8px 8px 0;
+	}
+	.editor-block-list__layout .editor-block-list__block .inlie_js_block ::selection{
+		background: yellow !important;
+	}
